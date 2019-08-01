@@ -32,22 +32,15 @@ int main() {
 	        cin>>a[j];
 	       }
 	    
-	    // for(int j=0;j<d;j++){
-	        
-	    //     c[j]=a[j];
-	    // }
-	    // for(int j=0;j<n-d;j++){
-	    //     a[j]=a[j+d];
-	    // }
-	    // for(int j=0;j<d;j++){
-	    //     a[n-d+j]=c[j];
-	    // }
+	   
 	    
 	   for(int j=0;j<n;j++){
 	        cout<<a[(j+d)%n]<<endl;
 	   }
 	    cout<<""<<endl;
 	}
+
+
 	
 	return 0;
 }
